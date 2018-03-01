@@ -1,5 +1,7 @@
 body {
     background-image: url('./../img/bg.png');
+    position: relative;
+    padding-bottom: 20px;
 }
 /* change the background color */
 .navbar-custom {
@@ -213,4 +215,9 @@ body {
 .miniError {
     color: #E27C3E !important;
     font-weight: '700' !important;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
